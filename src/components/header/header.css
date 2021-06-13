@@ -1,0 +1,62 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+}
+
+.navbar-logo{
+  display: flex;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logo-image {
+  height: 60px;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 12px;
+}
+
+
+
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+}
+.nav-item {
+  height: 30px;
+  margin: 0 25px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #00dbd0;
+}
+
+.nav-button {
+  margin-top: -30px;
+  padding: 12px 48px 13px 38px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #00dbd0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.nav-button:hover {
+  transition: all 0.3s ease-out;
+  background-color: #00dbd0;
+  color: #fff;
+}

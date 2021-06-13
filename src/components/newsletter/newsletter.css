@@ -1,0 +1,91 @@
+.section4 {
+    width: 100%;
+    background-image: url("./Group 134.png");
+    background-repeat: no-repeat;
+    background-size: 1100px 1350px;
+    background-position: -810px -240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #374b5c;
+  }
+  .img-quotes {
+    margin: 30px 0 30px;
+  }
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .customer-img {
+    width: 98px;
+    height: 98px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-name {
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .st-icon {
+    margin: 10px 5px;
+  }
+  .review {
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: -10px;
+  }
+  .review-carousel .rec .rec-dot {
+    background-color: white;
+    border: 1px solid #00dbd0;
+  }
+  .review-carousel.rec .rec-dot:hover,
+  .rec .rec-dot:active,
+  .rec .rec-dot:focus {
+    background-color: #00dbd0;
+    border: 1px solid #00dbd0;
+    box-shadow: none;
+  }
+  
+  .review-carousel {
+    margin-bottom: 170px;
+  }
+  
+  .sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  .sub .subtitle {
+    margin-bottom: 100px;
+    font-size: 16px;
+  }
+  .email input {
+    font-family: inherit;
+    height: 50px;
+    width: 300px;
+    color: #374b5c;
+    background-color: rgba(255, 255, 255, 0.11);
+    border: transparent;
+  }
+  .subscribe {
+    padding: 20px 45.5px 18px;
+    background-color: #00dbd0;
+    border: 2px solid #00dbd0;
+    border-radius: 30px;
+    font-family: inherit;
+    color: #fff;
+    cursor: pointer;
+  }
+  .subscribe:hover {
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #374b5c;
+  }
